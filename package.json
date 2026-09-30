@@ -1,0 +1,36 @@
+{
+  "name": "sigil-mcp-bridge",
+  "version": "0.2.0",
+  "description": "MCP bridge for editing open EPUB files in Sigil",
+  "license": "MIT",
+  "author": "Studio Agartha",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanNw/Sigil-ebook-editor-MCP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SanNw/Sigil-ebook-editor-MCP/issues"
+  },
+  "homepage": "https://github.com/SanNw/Sigil-ebook-editor-MCP#readme",
+  "keywords": ["mcp", "sigil", "epub", "ebook", "codex"],
+  "bin": {
+    "sigil-mcp": "bin/sigil-mcp.js"
+  },
+  "files": [
+    "bin/",
+    "mcp_server/sigil_mcp.py",
+    "sigil_plugin/SigilMCPBridge/plugin.py",
+    "sigil_plugin/SigilMCPBridge/plugin.xml",
+    "external_bridge.py",
+    "SigilMCPExternal.cs",
+    "SigilMCPExternal.exe",
+    "build.ps1",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}

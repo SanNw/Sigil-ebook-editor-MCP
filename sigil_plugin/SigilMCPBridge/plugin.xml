@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin><name>SigilMCPBridge</name><type>edit</type><author>Studio Agartha</author>
+<description>Local bridge between Sigil BookContainer and MCP clients.</description>
+<engine>python3.4</engine><version>0.2.0</version><oslist>osx,unx,win</oslist>
+<autostart>true</autostart><autoclose>false</autoclose></plugin>
